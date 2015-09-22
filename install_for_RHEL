@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Load theme repo
+git clone --recursive https://github.com/paradox460/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+
+# Copy file config
+cp .zpreztorc ~/
+cp .zsh ~/ 
+
+# Install font
+sudo cp Inconsolata-dz-Powerline.otf /usr/share/fonts/
+sudo cp Menlo-Powerline.otf /usr/share/fonts/ 
+sudo cp mensch-Powerline.otf /usr/share/fonts/ 
+fc-cache -f -v

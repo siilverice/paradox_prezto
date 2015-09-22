@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Load theme repo
+git clone --recursive https://github.com/paradox460/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+
+# Copy file config
+cp .zpreztorc ~/
+cp .zsh ~/ 
+
+# Install font
+
