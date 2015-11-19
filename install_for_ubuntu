@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#install zsh
+sudo apt-get install zsh
+
 # Load theme repo
 git clone --recursive https://github.com/paradox460/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
 
@@ -9,3 +12,5 @@ cp .zsh ~/
 
 # Install font
 
+#set default shell
+sudo chsh -s /bin/zsh
