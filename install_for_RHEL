@@ -3,6 +3,9 @@
 # install zsh
 sudo apt-get install zsh
 
+# cow
+sudo apt-get install cowsay fortune lolcat
+
 # Load theme repo
 git clone --recursive https://github.com/paradox460/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
 
