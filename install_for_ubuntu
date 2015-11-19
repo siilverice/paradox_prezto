@@ -8,7 +8,7 @@ git clone --recursive https://github.com/paradox460/prezto.git "${ZDOTDIR:-$HOME
 
 # Copy file config
 cp .zpreztorc ~/
-cp .zsh ~/ 
+cp .zshrc ~/ 
 
 # Install font
 
